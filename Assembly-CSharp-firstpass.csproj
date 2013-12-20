@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{81D7C6B7-67FE-A9A6-1AB7-67C20B57DAB4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\CheckPath.cs" />
+     <Compile Include="Assets\Plugins\CloudWordsValues.cs" />
+     <Compile Include="Assets\Plugins\EncryptedPlayerPrefs.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\EtceteraBinding.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\EtceteraManager.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\demo\CubeRotator.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraEventListener.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManager.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManagerThree.cs" />
+     <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManagerTwo.cs" />
+     <Compile Include="Assets\Plugins\FBParameters.cs" />
+     <Compile Include="Assets\Plugins\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\Plugins\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\Plugins\Helper Classes\Vector3OrTransformArray.cs" />
+     <Compile Include="Assets\Plugins\LoadLanguage.cs" />
+     <Compile Include="Assets\Plugins\LoadWords.cs" />
+     <Compile Include="Assets\Plugins\ResultHastablesAppRequest.cs" />
+     <Compile Include="Assets\Plugins\ResultHastablesFriends.cs" />
+     <Compile Include="Assets\Plugins\ResultHastablesScores.cs" />
+     <Compile Include="Assets\Plugins\SaveData.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\Facebook.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookBatchRequest.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookDataTypes.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookEventListener.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Twitter\TwitterEventListener.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Twitter\TwitterManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\FacebookBinding.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\SharingBinding.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\SharingManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\TwitterBinding.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\demoIOS\FacebookGUIManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\demoIOS\SharingGUIManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingIOS\demoIOS\TwitterGUIManager.cs" />
+     <Compile Include="Assets\Plugins\iTween.cs" />
+     <Compile Include="Assets\Plugins\iTweenEvent.cs" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Resources\wordlist_EN.txt" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\Fonts\ArialBlack.txt" />
+     <None Include="Assets\shaders\SimpleBlend.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito24.fnt" />
+     <None Include="Assets\Resources\wordlist_ES.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Resources\characters_ES.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\shaders\simpleTransp.shader" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
+     <None Include="Assets\Resources\characters_EN.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\shaders\TextureSimple.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

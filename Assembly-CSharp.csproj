@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{8AAF6061-6C2D-BC28-8133-52FA94821D68}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIActionBtn.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIBtnChangePanel.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIBtnLoadScene.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIBtnWWW.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIButton.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIButton3D.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIListButton.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIListItem.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIListItemContainer.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIPanelTab.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIProgressBar.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIRadioBtn.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIRadioBtn3D.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIScrollList.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UISlider.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIStateToggleBtn.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIStateToggleBtn3D.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UITextField.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Controls\UIVirtualScreen.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Management\UIBistateInteractivePanel.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Management\UIInteractivePanel.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Management\UIManager.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Management\UIPanel.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Management\UIPanelManager.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\AutoSpriteControlBase.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\ControlBase.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\EZDragDropHelper.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\IControl.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\IKeyFocusable.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\IPackableControl.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\IUIContainer.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\IUIObject.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\UIPanelBase.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\EZ\GUI\Support\UIScrollKnob.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\SimpleSprite.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\SpriteManager.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\SpriteText.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\AutoSprite.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\AutoSpriteBase.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\EZAnimator.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\EZScreenPlacement.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\FontStore.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\ISpriteAggregator.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\ISpriteAnimatable.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\ISpriteMesh.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\ISpritePackable.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\IUseCamera.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\PackableStub.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteAnimationPump.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteBase.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteFont.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteMesh.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteMesh_Managed.cs" />
+     <Compile Include="Assets\EZ GUI\Plugins\Sprite Scripts\Support\SpriteRoot.cs" />
+     <Compile Include="Assets\Scripts\ButtonLetterControl.cs" />
+     <Compile Include="Assets\Scripts\FBScript.cs" />
+     <Compile Include="Assets\Scripts\FBplayer.cs" />
+     <Compile Include="Assets\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Scripts\HeartsControl.cs" />
+     <Compile Include="Assets\Scripts\LoadingControl.cs" />
+     <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\Testing.cs" />
+     <Compile Include="Assets\Scripts\iTweenscale.cs" />
+     <Compile Include="Assets\Scripts\moveSplashheart.cs" />
+     <Compile Include="Assets\Scripts\movetotarget.cs" />
+     <Compile Include="Assets\Scripts\movetotargetsplash.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dUpdateManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dClippedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAttachPoint.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionSize.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteFromTexture.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dTiledSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMap.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoCoin.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoFollowCam.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoPlayer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIBaseItemControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDragItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownMenu.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIHoverItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIMultiStateToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIProgressBar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollableArea.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollbar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUISoundItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITextInput.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButtonGroup.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITweenItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownHoverButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIAudioManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUICamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayout.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainerSizer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIMask.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUISpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITime.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITouch.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIBaseDemoController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo2Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo3Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemo5Controller.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemoController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoAnimController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoButtonController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoCameraController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoReloadController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoRuntimeSpriteController.cs" />
+     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Resources\wordlist_EN.txt" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\Fonts\ArialBlack.txt" />
+     <None Include="Assets\shaders\SimpleBlend.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito24.fnt" />
+     <None Include="Assets\Resources\wordlist_ES.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Resources\characters_ES.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\shaders\simpleTransp.shader" />
+     <None Include="Assets\EZ GUI\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
+     <None Include="Assets\Resources\characters_EN.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\shaders\TextureSimple.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{81D7C6B7-67FE-A9A6-1AB7-67C20B57DAB4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
